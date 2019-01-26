@@ -16,7 +16,7 @@
     
     
     
-    <link rel="icon" href="/website-base-loader/favicon.ico">
+    <link rel="icon" href="/website-base-no-loader/favicon.ico">
 </head>
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
 <div id="app">
@@ -30,7 +30,7 @@
     </navbar>
   </div>
   <div>
-    <link rel="stylesheet" href="/website-base-loader/book/css/textbook.css">
+    <link rel="stylesheet" href="/website-base-no-loader/book/css/textbook.css">
     <div class="website-content">
       <p><span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can optimize the use of use cases</span>
         </span>
@@ -55,12 +55,12 @@
               <p><strong>You can use actor generalization in use case diagrams</strong> using a symbol similar to that of UML notation for inheritance.</p>
               <tip-box>
                 <p><span class="fas fa-cube"></span> In this example, actor <code>Blogger</code> can do all the use cases the actor <code>Guest</code> can do, as a result of the actor generalization relationship given in the diagram.</p>
-                <img src="/website-base-loader/book/specifyingRequirements/useCases/usage/images/actorGeneralisation.png" height="250"></tip-box>
+                <img src="/website-base-no-loader/book/specifyingRequirements/useCases/usage/images/actorGeneralisation.png" height="250"></tip-box>
               <p>💡 Do not over-complicate use case diagrams by trying to include everything possible. A use case diagram is a brief summary of the use cases that is used as a starting point. Details of the use cases can be given in the use case descriptions.</p>
               <p><strong>Some include ‘System’ as an actor to indicate that something is done by the system itself without being initiated by a user or an external system.</strong></p>
               <tip-box>
                 <p><span class="fas fa-cube"></span> The diagram below can be used to indicate that the system generates daily reports at midnight.</p>
-                <img src="/website-base-loader/book/specifyingRequirements/useCases/usage/images/systemAsActor.jpg" height="200"></tip-box>
+                <img src="/website-base-no-loader/book/specifyingRequirements/useCases/usage/images/systemAsActor.jpg" height="200"></tip-box>
               <p>However, others argue that only use cases providing value to an external user/system should be shown in the use case diagram. For example, they argue that ‘view daily report’ should be the use case and <code>generate daily report</code>                is not to be shown in the use case diagram because it is simply something the system has to do to support the <code>view daily report</code> use case.</p>
               <p>We recommend that you follow the latter view (i.e. not to use System as a user). Limit use cases for modeling behaviors that involve an external actor.</p>
               <p><strong>UML is not very specific about the text contents of a use case.</strong> Hence, there are many styles for writing use cases. For example, the steps can be written as a continuous paragraph. Use cases should be easy to read. Note
@@ -122,13 +122,8 @@
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.17.0</a> at Sat, 26 Jan 2019 04:23:19 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.17.0</a> at Sat, 26 Jan 2019 04:36:32 GMT</small></div>
 </footer>
-</div>
-<div id="loading-overlay">
-    <div id="spinner-layout">
-        <div id="spinner"></div>
-    </div>
 </div>
 </body>
 <script src="../../../../markbind/js/vue.min.js"></script>
@@ -137,7 +132,7 @@
 <script src="../../../../markbind/js/polyfill.min.js"></script>
 <script src="../../../../markbind/js/bootstrap-vue.min.js"></script>
 <script>
-    const baseUrl = '/website-base-loader'
+    const baseUrl = '/website-base-no-loader'
     const enableSearch = true
 </script>
 <script src="../../../../markbind/js/setup.js"></script>

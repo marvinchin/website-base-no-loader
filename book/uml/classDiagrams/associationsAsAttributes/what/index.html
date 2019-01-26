@@ -16,7 +16,7 @@
     
     
     
-    <link rel="icon" href="/website-base-loader/favicon.ico">
+    <link rel="icon" href="/website-base-no-loader/favicon.ico">
 </head>
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
 <div id="app">
@@ -30,7 +30,7 @@
     </navbar>
   </div>
   <div>
-    <link rel="stylesheet" href="/website-base-loader/book/css/textbook.css">
+    <link rel="stylesheet" href="/website-base-no-loader/book/css/textbook.css">
     <div class="website-content">
       <p><span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can show an association as an attribute</span>
         </span>
@@ -59,10 +59,10 @@
                 <p><span class="fas fa-cube"></span> The diagram below depicts a multi-player <em>Square Game</em> being played on a board comprising of 100 squares. Each of the squares may be occupied with any number of pieces, each belonging to a certain
                   player.</p>
                 <p>A <code>Piece</code> may or may not be on a <code>Square</code>. Note how that association can be replaced by an <code>isOn</code> attribute of the <code>Piece</code> class. The <code>isOn</code> attribute can either be <code>null</code>                  or hold a reference to a <code>Square</code> object, matching the <code>0..1</code> multiplicity of the association it replaces. The default value is <code>null</code>.</p>
-                <img src="/website-base-loader/book/uml/classDiagrams/associationsAsAttributes/what/images/squareMultiplicity.png" width="600">
+                <img src="/website-base-no-loader/book/uml/classDiagrams/associationsAsAttributes/what/images/squareMultiplicity.png" width="600">
                 <p></p>
                 <p>The association that a <code>Board</code> has 100 <code>Sqaure</code>s can be shown in either of these two ways:</p>
-                <img src="/website-base-loader/book/uml/classDiagrams/associationsAsAttributes/what/images/board.png" height="70">
+                <img src="/website-base-no-loader/book/uml/classDiagrams/associationsAsAttributes/what/images/board.png" height="70">
                 <p></p>
               </tip-box>
             </div>
@@ -76,13 +76,8 @@
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.17.0</a> at Sat, 26 Jan 2019 04:23:19 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.17.0</a> at Sat, 26 Jan 2019 04:36:32 GMT</small></div>
 </footer>
-</div>
-<div id="loading-overlay">
-    <div id="spinner-layout">
-        <div id="spinner"></div>
-    </div>
 </div>
 </body>
 <script src="../../../../../markbind/js/vue.min.js"></script>
@@ -91,7 +86,7 @@
 <script src="../../../../../markbind/js/polyfill.min.js"></script>
 <script src="../../../../../markbind/js/bootstrap-vue.min.js"></script>
 <script>
-    const baseUrl = '/website-base-loader'
+    const baseUrl = '/website-base-no-loader'
     const enableSearch = true
 </script>
 <script src="../../../../../markbind/js/setup.js"></script>

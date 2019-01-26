@@ -16,7 +16,7 @@
     
     
     
-    <link rel="icon" href="/website-base-loader/favicon.ico">
+    <link rel="icon" href="/website-base-no-loader/favicon.ico">
 </head>
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
 <div id="app">
@@ -30,7 +30,7 @@
     </navbar>
   </div>
   <div>
-    <link rel="stylesheet" href="/website-base-loader/book/css/textbook.css">
+    <link rel="stylesheet" href="/website-base-no-loader/book/css/textbook.css">
     <div class="website-content">
       <p><span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can push to a remote repo</span>
         </span>
@@ -42,7 +42,7 @@
       <div>
         <div>
           <p>
-            <panel src="/website-base-loader/book/gitAndGithub/pull/unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> %%Tools → Git & GitHub → Pull%%" popup-url="/website-base-loader/book/gitAndGithub/pull"></panel>
+            <panel src="/website-base-no-loader/book/gitAndGithub/pull/unit-inElsewhere-asFlat._include_.html" header="<span class='glyphicon glyphicon-education' aria-hidden='true'></span> %%Tools → Git & GitHub → Pull%%" popup-url="/website-base-no-loader/book/gitAndGithub/pull"></panel>
           </p>
         </div>
         <p></p>
@@ -63,7 +63,7 @@
                 <li>
                   <p>Fork the <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a> to your GitHub account:</p>
                   <panel type="seamless" header="%%How to fork a repo?%%">
-                    <p>Navigate to the on GitHub and click on the <img src="/website-base-loader/book/gitAndGithub/push/images/fork.png" height="30"> button on the top-right corner.</p>
+                    <p>Navigate to the on GitHub and click on the <img src="/website-base-no-loader/book/gitAndGithub/push/images/fork.png" height="30"> button on the top-right corner.</p>
                     <p></p>
                   </panel>
                   <p></p>
@@ -82,7 +82,7 @@
                 <tab header="SourceTree">
                   <div>
                     <p>Click the <code>Push</code> button on the main menu, ensure the settings are as follows in the next dialog, and click the <code>Push</code> button on the dialog.</p>
-                    <img src="/website-base-loader/book/gitAndGithub/push/images/sourcetree_1.png" height="150">
+                    <img src="/website-base-no-loader/book/gitAndGithub/push/images/sourcetree_1.png" height="150">
                     <p></p>
                   </div>
                   <hr>
@@ -98,15 +98,15 @@
               <ol>
                 <li>
                   <p>Login to your GitHub account and choose to create a new Repo. <br>
-                    <img src="/website-base-loader/book/gitAndGithub/push/images/createNewRemoteRepo.png" width="150"></p>
+                    <img src="/website-base-no-loader/book/gitAndGithub/push/images/createNewRemoteRepo.png" width="150"></p>
                 </li>
                 <li>
                   <p>In the next screen, provide a name for your repo but keep the <code>Initialize this repo ...</code> tick box unchecked.<br>
-                    <img src="/website-base-loader/book/gitAndGithub/push/images/fillNewRepoInfo.png" width="600"></p>
+                    <img src="/website-base-no-loader/book/gitAndGithub/push/images/fillNewRepoInfo.png" width="600"></p>
                 </li>
                 <li>
                   <p>Note the URL of the repo. It will be of the form <code>https://github.com/{your_user_name}/{repo_name}.git</code><br> e.g., <code>https://github.com/johndoe/foobar.git</code><br>
-                    <img src="/website-base-loader/book/gitAndGithub/push/images/newRepoUrl.png" width="450"></p>
+                    <img src="/website-base-no-loader/book/gitAndGithub/push/images/newRepoUrl.png" width="450"></p>
                 </li>
               </ol>
               <p>Next, you can push the existing local repo to the new remote repo as follows:</p>
@@ -120,11 +120,11 @@
                         <li><code>Remote name</code>: the name you want to assign to the remote repo. Recommended <code>origin</code></li>
                         <li><code>URL/path</code>: the URL of your repo (ending in <code>.git</code>) that you collected earlier.</li>
                         <li><code>Username</code>: your GitHub username<br>
-                          <img src="/website-base-loader/book/gitAndGithub/push/images/fillRemoteInfoForSourceTree.png" width="450"></li>
+                          <img src="/website-base-no-loader/book/gitAndGithub/push/images/fillRemoteInfoForSourceTree.png" width="450"></li>
                       </ul>
                     </li>
                     <li>Now you can push your repo to the new remote the usual way.<br>
-                      <img src="/website-base-loader/book/gitAndGithub/push/images/pushToRemote.png" width="470"></li>
+                      <img src="/website-base-no-loader/book/gitAndGithub/push/images/pushToRemote.png" width="470"></li>
                   </ol>
                   <hr>
                 </tab>
@@ -149,13 +149,8 @@
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.17.0</a> at Sat, 26 Jan 2019 04:23:19 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.17.0</a> at Sat, 26 Jan 2019 04:36:32 GMT</small></div>
 </footer>
-</div>
-<div id="loading-overlay">
-    <div id="spinner-layout">
-        <div id="spinner"></div>
-    </div>
 </div>
 </body>
 <script src="../../../markbind/js/vue.min.js"></script>
@@ -164,7 +159,7 @@
 <script src="../../../markbind/js/polyfill.min.js"></script>
 <script src="../../../markbind/js/bootstrap-vue.min.js"></script>
 <script>
-    const baseUrl = '/website-base-loader'
+    const baseUrl = '/website-base-no-loader'
     const enableSearch = true
 </script>
 <script src="../../../markbind/js/setup.js"></script>

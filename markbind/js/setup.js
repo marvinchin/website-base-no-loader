@@ -33,10 +33,6 @@ function setupAnchors() {
   });
 }
 
-function removeLoadingOverlay() {
-  jQuery('#loading-overlay').remove();
-}
-
 function updateSearchData(vm) {
   jQuery.getJSON(`${baseUrl}/siteData.json`)
     .then((siteData) => {
@@ -49,7 +45,6 @@ function executeAfterMountedRoutines() {
   flattenModals();
   scrollToUrlAnchorHeading();
   setupAnchors();
-  removeLoadingOverlay();
 }
 
 function setupSiteNav() {

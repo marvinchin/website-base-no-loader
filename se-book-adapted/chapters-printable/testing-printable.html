@@ -16,13 +16,13 @@
     
     
     
-    <link rel="icon" href="/website-base-loader/favicon.ico">
+    <link rel="icon" href="/website-base-no-loader/favicon.ico">
 </head>
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
 <div id="app">
     <div id="content-wrapper">
-  <link rel="stylesheet" href="/website-base-loader/book/css/textbook.css">
-  <link rel="stylesheet" href="/website-base-loader/book/css/print.css">
+  <link rel="stylesheet" href="/website-base-no-loader/book/css/textbook.css">
+  <link rel="stylesheet" href="/website-base-no-loader/book/css/print.css">
   <div class="website-content">
     <div id="title">
       <div>
@@ -50,7 +50,7 @@
                 <p><strong>Testing</strong>: Testing is operating a system or component under specified conditions, observing or recording the results, and making an evaluation of some aspect of the system or component. –- source: IEEE</p>
               </div>
             </tip-box>
-            <img src="/website-base-loader/book/testing/introduction/what/images/diagram.png" height="220">
+            <img src="/website-base-no-loader/book/testing/introduction/what/images/diagram.png" height="220">
             <p></p>
             <p><strong>When testing, we execute a set of <em>test cases</em>.</strong> A test case specifies how to perform a test. At a minimum, it specifies the input to the <em>software under test (SUT)</em> and the expected behavior.</p>
             <tip-box>
@@ -447,7 +447,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
             <blockquote>
               <p>The earlier a bug is found, the easier and cheaper to have it fixed.</p>
             </blockquote>
-            <img src="/website-base-loader/book/testing/testingTypes/developerTesting/why/images/diagram.png" height="180">
+            <img src="/website-base-no-loader/book/testing/testingTypes/developerTesting/why/images/diagram.png" height="180">
             <p></p>
             <p>Such early testing of partially developed software is usually, and by necessity, done by the developers themselves i.e. developer testing.</p>
           </div>
@@ -825,7 +825,7 @@ Invalid command format: add
 </code></pre>
             </tip-box>
             <p>Most modern IDEs has integrated support for testing tools. The figure below shows the JUnit output when running some JUnit tests using the Eclipse IDE.</p>
-            <img src="/website-base-loader/book/testing/testAutomation/tools/images/junit.png" height="190">
+            <img src="/website-base-no-loader/book/testing/testAutomation/tools/images/junit.png" height="190">
             <p></p>
           </div>
         </div>
@@ -846,7 +846,7 @@ Invalid command format: add
               <li>The appearance of a GUI (and sometimes even behavior) can be different across platforms and even environments. For example, a GUI can behave differently based on whether it is minimized or maximized, in focus or out of focus, and in a high
                 resolution display or a low resolution display.</li>
             </ul>
-            <img src="/website-base-loader/book/testing/testAutomation/testingGuis/images/diagram.png" height="120">
+            <img src="/website-base-no-loader/book/testing/testAutomation/testingGuis/images/diagram.png" height="120">
             <p></p>
             <p><strong>One approach to overcome the challenges of testing GUIs is to minimize logic aspects in the GUI.</strong> Then, bypass the GUI to test the rest of the system using automated API testing. While this still requires the GUI to be tested
               manually, the number of such manual test cases can be reduced as most of the system has been tested using automated API testing.</p>
@@ -956,8 +956,8 @@ Invalid command format: add
               <div>
                 <div>
                   <p>
-                    <panel src="/website-base-loader/book/testing/testingTypes/unitTesting/what/unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Unit Testing → What →%%"
-                      popup-url="/website-base-loader/book/testing/testingTypes/unitTesting/what"></panel>
+                    <panel src="/website-base-no-loader/book/testing/testingTypes/unitTesting/what/unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Quality Assurance → Testing → Unit Testing → What →%%"
+                      popup-url="/website-base-no-loader/book/testing/testingTypes/unitTesting/what"></panel>
                   </p>
                 </div>
                 <p></p>
@@ -1083,7 +1083,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
             <tip-box>
               <p><span class="fas fa-cube"></span> A <code>Foo</code> object normally depends on a <code>Bar</code> object, but we can inject a <code>BarStub</code> object so that the <code>Foo</code> object no longer depends on a <code>Bar</code> object.
                 Now we can test the <code>Foo</code> object in isolation from the <code>Bar</code> object.</p>
-              <img src="/website-base-loader/book/testing/dependencyInjection/what/images/diagram.png" height="150"></tip-box>
+              <img src="/website-base-no-loader/book/testing/dependencyInjection/what/images/diagram.png" height="150"></tip-box>
           </div>
         </div>
       </div>
@@ -1093,13 +1093,8 @@ String name = logic.getName(<span class="hljs-number">23</span>);
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.17.0</a> at Sat, 26 Jan 2019 04:23:19 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.17.0</a> at Sat, 26 Jan 2019 04:36:32 GMT</small></div>
 </footer>
-</div>
-<div id="loading-overlay">
-    <div id="spinner-layout">
-        <div id="spinner"></div>
-    </div>
 </div>
 </body>
 <script src="../../markbind/js/vue.min.js"></script>
@@ -1108,7 +1103,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
 <script src="../../markbind/js/polyfill.min.js"></script>
 <script src="../../markbind/js/bootstrap-vue.min.js"></script>
 <script>
-    const baseUrl = '/website-base-loader'
+    const baseUrl = '/website-base-no-loader'
     const enableSearch = true
 </script>
 <script src="../../markbind/js/setup.js"></script>

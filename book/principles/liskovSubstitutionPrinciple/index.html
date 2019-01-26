@@ -16,7 +16,7 @@
     
     
     
-    <link rel="icon" href="/website-base-loader/favicon.ico">
+    <link rel="icon" href="/website-base-no-loader/favicon.ico">
 </head>
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
 <div id="app">
@@ -30,7 +30,7 @@
     </navbar>
   </div>
   <div>
-    <link rel="stylesheet" href="/website-base-loader/book/css/textbook.css">
+    <link rel="stylesheet" href="/website-base-no-loader/book/css/textbook.css">
     <div class="website-content">
       <p><span class="badge badge-light"><span><span class="dimmed"><span><span class="fas fa-trophy"></span> Can explain Liskov Substitution Principle</span>
         </span>
@@ -65,8 +65,8 @@
                 <div>
                   <div>
                     <p>
-                      <panel src="/website-base-loader/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Paradigms → Object Oriented Programming → Inheritance → What%%"
-                        popup-url="/website-base-loader/book/oop/inheritance/what"></panel>
+                      <panel src="/website-base-no-loader/book/oop/inheritance/what/unit-inElsewhere-asFlat._include_.html" header="%%<span class='glyphicon glyphicon-education' aria-hidden='true'></span> Paradigms → Object Oriented Programming → Inheritance → What%%"
+                        popup-url="/website-base-no-loader/book/oop/inheritance/what"></panel>
                     </p>
                   </div>
                   <p></p>
@@ -83,7 +83,7 @@
                         <p><strong>Every instance of a subclass is an instance of the superclass, but not vice-versa.</strong> As a result, inheritance allows <em>substitutability</em> : the ability to substitute a child class object where a parent class
                           object is expected.</p>
                         <tip-box>
-                          <img src="/website-base-loader/book/oop/inheritance/substitutability/images/staff.png" height="80">
+                          <img src="/website-base-no-loader/book/oop/inheritance/substitutability/images/staff.png" height="80">
                           <p></p>
                           <p><span class="fas fa-cube"></span> an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>. i.e. wherever an object of the superclass
                             is expected, it can be substituted by an object of any of its subclasses.</p>
@@ -104,7 +104,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
               </modal>
               <tip-box>
                 <p><span class="fas fa-cube"></span> Suppose the <code>Payroll</code> class depends on the <code>adjustMySalary(int percent)</code> method of the <code>Staff</code> class. Furthermore, the <code>Staff</code> class states that the <code>adjustMySalary</code>                  method will work for all positive percent values. Both <code>Admin</code> and <code>Academic</code> classes override the <code>adjustMySalary</code> method.</p>
-                <img src="/website-base-loader/book/principles/liskovSubstitutionPrinciple/images/payroll.png" height="200">
+                <img src="/website-base-no-loader/book/principles/liskovSubstitutionPrinciple/images/payroll.png" height="200">
                 <p></p>
                 <p>Now consider the following:</p>
                 <ul>
@@ -121,7 +121,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
                 <panel type="seamless" header="%%Another example%%">
                   <p><span class="fas fa-cube"></span> The <code>Rectangle#resize()</code> can take any integers for <code>height</code> and <code>width</code>. This contract is violated by the subclass <code>Square#resize()</code> because it does not accept
                     a <code>height</code> that is different from the <code>width</code>.</p>
-                  <img src="/website-base-loader/book/principles/liskovSubstitutionPrinciple/images/rectangleSquare.png" height="120">
+                  <img src="/website-base-no-loader/book/principles/liskovSubstitutionPrinciple/images/rectangleSquare.png" height="120">
                   <p></p>
                   <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Rectangle</span> </span>{
     ...
@@ -181,13 +181,8 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
 <div id="flex-div"></div>
 <footer>
   <div class="text-center">
-    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.17.0</a> at Sat, 26 Jan 2019 04:23:19 GMT</small></div>
+    <small>This site was built with <a href="https://markbind.github.io/markbind/">MarkBind 1.17.0</a> at Sat, 26 Jan 2019 04:36:32 GMT</small></div>
 </footer>
-</div>
-<div id="loading-overlay">
-    <div id="spinner-layout">
-        <div id="spinner"></div>
-    </div>
 </div>
 </body>
 <script src="../../../markbind/js/vue.min.js"></script>
@@ -196,7 +191,7 @@ AcademicStaff academicStaff = staff; <span class="hljs-comment">// Not OK</span>
 <script src="../../../markbind/js/polyfill.min.js"></script>
 <script src="../../../markbind/js/bootstrap-vue.min.js"></script>
 <script>
-    const baseUrl = '/website-base-loader'
+    const baseUrl = '/website-base-no-loader'
     const enableSearch = true
 </script>
 <script src="../../../markbind/js/setup.js"></script>
